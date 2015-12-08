@@ -9,12 +9,21 @@
 /* Begin PBXBuildFile section */
 		1871FC611BDD04900079B250 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1871FC601BDD04900079B250 /* main.m */; };
 		1871FC641BDD04900079B250 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1871FC631BDD04900079B250 /* AppDelegate.m */; };
-		1871FC671BDD04900079B250 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1871FC661BDD04900079B250 /* ViewController.m */; };
-		1871FC6A1BDD04900079B250 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1871FC681BDD04900079B250 /* Main.storyboard */; };
 		1871FC6C1BDD04900079B250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1871FC6B1BDD04900079B250 /* Assets.xcassets */; };
 		1871FC6F1BDD04900079B250 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1871FC6D1BDD04900079B250 /* LaunchScreen.storyboard */; };
 		1871FC7A1BDD04900079B250 /* PetShowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1871FC791BDD04900079B250 /* PetShowTests.m */; };
 		1871FC851BDD04900079B250 /* PetShowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1871FC841BDD04900079B250 /* PetShowUITests.m */; };
+		64464A331C15C2830034CFBB /* SZTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 64464A321C15C2830034CFBB /* SZTools.m */; };
+		BE4C4C661BDE68EF00E5F9AE /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4C4C461BDE68EF00E5F9AE /* FindViewController.m */; };
+		BE4C4C671BDE68EF00E5F9AE /* FindViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE4C4C471BDE68EF00E5F9AE /* FindViewController.xib */; };
+		BE4C4C681BDE68EF00E5F9AE /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4C4C4D1BDE68EF00E5F9AE /* MessageViewController.m */; };
+		BE4C4C691BDE68EF00E5F9AE /* MessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE4C4C4E1BDE68EF00E5F9AE /* MessageViewController.xib */; };
+		BE4C4C6A1BDE68EF00E5F9AE /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4C4C541BDE68EF00E5F9AE /* MineViewController.m */; };
+		BE4C4C6B1BDE68EF00E5F9AE /* MineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE4C4C551BDE68EF00E5F9AE /* MineViewController.xib */; };
+		BE4C4C6C1BDE68EF00E5F9AE /* NearByViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4C4C5B1BDE68EF00E5F9AE /* NearByViewController.m */; };
+		BE4C4C6D1BDE68EF00E5F9AE /* NearByViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE4C4C5C1BDE68EF00E5F9AE /* NearByViewController.xib */; };
+		BE4C4C6E1BDE68EF00E5F9AE /* ShoppingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4C4C621BDE68EF00E5F9AE /* ShoppingViewController.m */; };
+		BE4C4C6F1BDE68EF00E5F9AE /* ShoppingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE4C4C631BDE68EF00E5F9AE /* ShoppingViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +48,6 @@
 		1871FC601BDD04900079B250 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1871FC621BDD04900079B250 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1871FC631BDD04900079B250 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1871FC651BDD04900079B250 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1871FC661BDD04900079B250 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1871FC691BDD04900079B250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1871FC6B1BDD04900079B250 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1871FC6E1BDD04900079B250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1871FC701BDD04900079B250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +57,25 @@
 		1871FC801BDD04900079B250 /* PetShowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetShowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1871FC841BDD04900079B250 /* PetShowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PetShowUITests.m; sourceTree = "<group>"; };
 		1871FC861BDD04900079B250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1871FCCF1BDD0AA50079B250 /* PchFile.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PchFile.pch; sourceTree = "<group>"; };
+		1871FCD01BDD0AC70079B250 /* macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macro.h; sourceTree = "<group>"; };
+		64464A311C15C2830034CFBB /* SZTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZTools.h; sourceTree = "<group>"; };
+		64464A321C15C2830034CFBB /* SZTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZTools.m; sourceTree = "<group>"; };
+		BE4C4C451BDE68EF00E5F9AE /* FindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindViewController.h; sourceTree = "<group>"; };
+		BE4C4C461BDE68EF00E5F9AE /* FindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindViewController.m; sourceTree = "<group>"; };
+		BE4C4C471BDE68EF00E5F9AE /* FindViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FindViewController.xib; sourceTree = "<group>"; };
+		BE4C4C4C1BDE68EF00E5F9AE /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		BE4C4C4D1BDE68EF00E5F9AE /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		BE4C4C4E1BDE68EF00E5F9AE /* MessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageViewController.xib; sourceTree = "<group>"; };
+		BE4C4C531BDE68EF00E5F9AE /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		BE4C4C541BDE68EF00E5F9AE /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		BE4C4C551BDE68EF00E5F9AE /* MineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineViewController.xib; sourceTree = "<group>"; };
+		BE4C4C5A1BDE68EF00E5F9AE /* NearByViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearByViewController.h; sourceTree = "<group>"; };
+		BE4C4C5B1BDE68EF00E5F9AE /* NearByViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearByViewController.m; sourceTree = "<group>"; };
+		BE4C4C5C1BDE68EF00E5F9AE /* NearByViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NearByViewController.xib; sourceTree = "<group>"; };
+		BE4C4C611BDE68EF00E5F9AE /* ShoppingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingViewController.h; sourceTree = "<group>"; };
+		BE4C4C621BDE68EF00E5F9AE /* ShoppingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingViewController.m; sourceTree = "<group>"; };
+		BE4C4C631BDE68EF00E5F9AE /* ShoppingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShoppingViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +126,10 @@
 		1871FC5E1BDD04900079B250 /* PetShow */ = {
 			isa = PBXGroup;
 			children = (
+				BE4C4C421BDE68EF00E5F9AE /* Classes */,
+				1871FCA21BDD08160079B250 /* Library */,
 				1871FC621BDD04900079B250 /* AppDelegate.h */,
 				1871FC631BDD04900079B250 /* AppDelegate.m */,
-				1871FC651BDD04900079B250 /* ViewController.h */,
-				1871FC661BDD04900079B250 /* ViewController.m */,
-				1871FC681BDD04900079B250 /* Main.storyboard */,
 				1871FC6B1BDD04900079B250 /* Assets.xcassets */,
 				1871FC6D1BDD04900079B250 /* LaunchScreen.storyboard */,
 				1871FC701BDD04900079B250 /* Info.plist */,
@@ -138,6 +162,223 @@
 				1871FC861BDD04900079B250 /* Info.plist */,
 			);
 			path = PetShowUITests;
+			sourceTree = "<group>";
+		};
+		1871FCA21BDD08160079B250 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				1871FCA31BDD08160079B250 /* System */,
+				1871FCA41BDD08160079B250 /* Third */,
+				1871FCA51BDD08160079B250 /* Util */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		1871FCA31BDD08160079B250 /* System */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		1871FCA41BDD08160079B250 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		1871FCA51BDD08160079B250 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				1871FCD01BDD0AC70079B250 /* macro.h */,
+				1871FCCF1BDD0AA50079B250 /* PchFile.pch */,
+				64464A311C15C2830034CFBB /* SZTools.h */,
+				64464A321C15C2830034CFBB /* SZTools.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		BE4C4C421BDE68EF00E5F9AE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BE4C4C431BDE68EF00E5F9AE /* Find */,
+				BE4C4C4A1BDE68EF00E5F9AE /* Message */,
+				BE4C4C511BDE68EF00E5F9AE /* Mine */,
+				BE4C4C581BDE68EF00E5F9AE /* NearBy */,
+				BE4C4C5F1BDE68EF00E5F9AE /* Shopping */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BE4C4C431BDE68EF00E5F9AE /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				BE4C4C441BDE68EF00E5F9AE /* Controller */,
+				BE4C4C481BDE68EF00E5F9AE /* Model */,
+				BE4C4C491BDE68EF00E5F9AE /* View */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		BE4C4C441BDE68EF00E5F9AE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BE4C4C451BDE68EF00E5F9AE /* FindViewController.h */,
+				BE4C4C461BDE68EF00E5F9AE /* FindViewController.m */,
+				BE4C4C471BDE68EF00E5F9AE /* FindViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BE4C4C481BDE68EF00E5F9AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE4C4C491BDE68EF00E5F9AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BE4C4C4A1BDE68EF00E5F9AE /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				BE4C4C4B1BDE68EF00E5F9AE /* Controller */,
+				BE4C4C4F1BDE68EF00E5F9AE /* Model */,
+				BE4C4C501BDE68EF00E5F9AE /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		BE4C4C4B1BDE68EF00E5F9AE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BE4C4C4C1BDE68EF00E5F9AE /* MessageViewController.h */,
+				BE4C4C4D1BDE68EF00E5F9AE /* MessageViewController.m */,
+				BE4C4C4E1BDE68EF00E5F9AE /* MessageViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BE4C4C4F1BDE68EF00E5F9AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE4C4C501BDE68EF00E5F9AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BE4C4C511BDE68EF00E5F9AE /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				BE4C4C521BDE68EF00E5F9AE /* Controller */,
+				BE4C4C561BDE68EF00E5F9AE /* Model */,
+				BE4C4C571BDE68EF00E5F9AE /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		BE4C4C521BDE68EF00E5F9AE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BE4C4C531BDE68EF00E5F9AE /* MineViewController.h */,
+				BE4C4C541BDE68EF00E5F9AE /* MineViewController.m */,
+				BE4C4C551BDE68EF00E5F9AE /* MineViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BE4C4C561BDE68EF00E5F9AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE4C4C571BDE68EF00E5F9AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BE4C4C581BDE68EF00E5F9AE /* NearBy */ = {
+			isa = PBXGroup;
+			children = (
+				BE4C4C591BDE68EF00E5F9AE /* Controller */,
+				BE4C4C5D1BDE68EF00E5F9AE /* Model */,
+				BE4C4C5E1BDE68EF00E5F9AE /* View */,
+			);
+			path = NearBy;
+			sourceTree = "<group>";
+		};
+		BE4C4C591BDE68EF00E5F9AE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BE4C4C5A1BDE68EF00E5F9AE /* NearByViewController.h */,
+				BE4C4C5B1BDE68EF00E5F9AE /* NearByViewController.m */,
+				BE4C4C5C1BDE68EF00E5F9AE /* NearByViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BE4C4C5D1BDE68EF00E5F9AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE4C4C5E1BDE68EF00E5F9AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BE4C4C5F1BDE68EF00E5F9AE /* Shopping */ = {
+			isa = PBXGroup;
+			children = (
+				BE4C4C601BDE68EF00E5F9AE /* Controller */,
+				BE4C4C641BDE68EF00E5F9AE /* Model */,
+				BE4C4C651BDE68EF00E5F9AE /* View */,
+			);
+			path = Shopping;
+			sourceTree = "<group>";
+		};
+		BE4C4C601BDE68EF00E5F9AE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BE4C4C611BDE68EF00E5F9AE /* ShoppingViewController.h */,
+				BE4C4C621BDE68EF00E5F9AE /* ShoppingViewController.m */,
+				BE4C4C631BDE68EF00E5F9AE /* ShoppingViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BE4C4C641BDE68EF00E5F9AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE4C4C651BDE68EF00E5F9AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +487,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE4C4C6B1BDE68EF00E5F9AE /* MineViewController.xib in Resources */,
+				BE4C4C6F1BDE68EF00E5F9AE /* ShoppingViewController.xib in Resources */,
+				BE4C4C6D1BDE68EF00E5F9AE /* NearByViewController.xib in Resources */,
 				1871FC6F1BDD04900079B250 /* LaunchScreen.storyboard in Resources */,
+				BE4C4C671BDE68EF00E5F9AE /* FindViewController.xib in Resources */,
+				BE4C4C691BDE68EF00E5F9AE /* MessageViewController.xib in Resources */,
 				1871FC6C1BDD04900079B250 /* Assets.xcassets in Resources */,
-				1871FC6A1BDD04900079B250 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +518,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1871FC671BDD04900079B250 /* ViewController.m in Sources */,
+				BE4C4C661BDE68EF00E5F9AE /* FindViewController.m in Sources */,
 				1871FC641BDD04900079B250 /* AppDelegate.m in Sources */,
+				64464A331C15C2830034CFBB /* SZTools.m in Sources */,
+				BE4C4C6A1BDE68EF00E5F9AE /* MineViewController.m in Sources */,
+				BE4C4C681BDE68EF00E5F9AE /* MessageViewController.m in Sources */,
 				1871FC611BDD04900079B250 /* main.m in Sources */,
+				BE4C4C6C1BDE68EF00E5F9AE /* NearByViewController.m in Sources */,
+				BE4C4C6E1BDE68EF00E5F9AE /* ShoppingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +561,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1871FC681BDD04900079B250 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1871FC691BDD04900079B250 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1871FC6D1BDD04900079B250 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -414,7 +656,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PetShow/Library/Util/PchFile.pch";
 				INFOPLIST_FILE = PetShow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LanTian.PetShow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,7 +672,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PetShow/Library/Util/PchFile.pch";
 				INFOPLIST_FILE = PetShow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LanTian.PetShow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -499,6 +751,7 @@
 				1871FC8B1BDD04900079B250 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1871FC8C1BDD04900079B250 /* Build configuration list for PBXNativeTarget "PetShowTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +760,7 @@
 				1871FC8E1BDD04900079B250 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1871FC8F1BDD04900079B250 /* Build configuration list for PBXNativeTarget "PetShowUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +769,7 @@
 				1871FC911BDD04900079B250 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

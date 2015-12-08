@@ -7,6 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ShoppingViewController.h"
+#import "NearByViewController.h"
+#import "MessageViewController.h"
+#import "FindViewController.h"
+#import "MineViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

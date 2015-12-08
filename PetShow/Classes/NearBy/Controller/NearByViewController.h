@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NearByViewController.h
 //  PetShow
 //
 //  Created by Apple on 15/10/25.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface NearByViewController : UIViewController
 
 @end
-

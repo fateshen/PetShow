@@ -1,0 +1,21 @@
+//
+//  PchFile.pch
+//  PetShow
+//
+//  Created by Apple on 15/10/25.
+//  Copyright © 2015年 Apple. All rights reserved.
+//
+
+#ifndef PchFile_pch
+#define PchFile_pch
+
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#import "macro.h"
+
+
+#endif

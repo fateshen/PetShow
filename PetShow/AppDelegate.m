@@ -16,7 +16,49 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+
+    self.window=[[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window makeKeyAndVisible];
+
+
     // Override point for customization after application launch.
+    self.window.backgroundColor=[UIColor whiteColor];
+    ShoppingViewController *shopping=[[ShoppingViewController  alloc]init];
+    UINavigationController *shoppNavi=[[UINavigationController alloc]initWithRootViewController:shopping];
+    shoppNavi.tabBarItem.image=[UIImage imageNamed:@"Shopping"];
+    shoppNavi.tabBarItem.title=@"商城";
+    NearByViewController *nearby=[[NearByViewController  alloc]init];
+    UINavigationController *nearbyNavi=[[UINavigationController alloc]initWithRootViewController:nearby];
+    nearbyNavi.tabBarItem.image=[UIImage imageNamed:@"NearBy"];
+    nearbyNavi.tabBarItem.title=@"附近";
+    MessageViewController *message=[[MessageViewController  alloc]init];
+    UINavigationController *messageNavi=[[UINavigationController alloc]initWithRootViewController:message];
+    messageNavi.tabBarItem.image=[UIImage imageNamed:@"Message"];
+    messageNavi.tabBarItem.title=@"消息";
+    FindViewController *find=[[FindViewController  alloc]init];
+    UINavigationController *findNavi=[[UINavigationController alloc]initWithRootViewController:find];
+    findNavi.tabBarItem.image=[UIImage imageNamed:@"Find"];
+
+    findNavi.tabBarItem.title=@"发现";
+    MineViewController *mine=[[MineViewController  alloc]init];
+    UINavigationController *mineNavi=[[UINavigationController alloc]initWithRootViewController:mine];
+    mineNavi.tabBarItem.image=[UIImage imageNamed:@"Mine"];
+    mineNavi.tabBarItem.title=@"我的";
+    UITabBarController *tabBatController = [[UITabBarController alloc] init];
+    
+    UIView *backView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, KDeviceW, 49)];
+    backView.backgroundColor = RGB(134, 134, 134);
+    [tabBatController.tabBar insertSubview:backView atIndex:0];
+    tabBatController.tabBar.opaque = YES;
+    tabBatController.viewControllers =@[shoppNavi,nearbyNavi,messageNavi,findNavi,mineNavi];
+    
+    tabBatController.tabBar.selectedImageTintColor = [UIColor whiteColor];
+
+    self.window.rootViewController = tabBatController;
+    
+    
+    
     return YES;
 }
 

@@ -1,0 +1,84 @@
+10
+
+dir
+0
+https://fateshen@github.com/fateshen/TrainingHome.git/trunk/petpet/PetShow/PetShow
+https://fateshen@github.com/fateshen/TrainingHome.git
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+d1b09b7d-10e5-bc72-e337-ce57b7db7bff
+
+main.m
+file
+
+
+
+add
+
+Base.lproj
+dir
+
+
+
+add
+
+AppDelegate.h
+file
+
+
+
+add
+
+Library
+dir
+
+
+
+add
+
+Info.plist
+file
+
+
+
+add
+
+AppDelegate.m
+file
+
+
+
+add
+
+Classes
+dir
+
+
+
+add
+
+Assets.xcassets
+dir
+
+
+
+add
+
